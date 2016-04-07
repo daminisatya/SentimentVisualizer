@@ -21,7 +21,7 @@ python app.py
 
 Here are few screenshots of the tool 
 ------------------------------------
-![Alt text](/home/daminni/Pictures/Selection_063.png)
-![Alt text](/home/daminni/Pictures/Selection_064.png)
-![Alt text](/home/daminni/Pictures/Selection_065.png)
-![Alt text](/home/daminni/Pictures/Selection_066.png)
+![Alt text](/static/img/landingpage.png "This is the landing page")
+![Alt text](/static/img/visualization.png "This is the visualization page")
+![Alt text](/static/img/tweets.png "Tweets page")
+![Alt text](/static/img/aboutloklak.png "About loklak")
