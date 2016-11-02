@@ -17,9 +17,11 @@ app.jinja_env.add_extension("chartkick.ext.charts")
 @app.route('/visualize', methods=['POST'])
 def visualize():
 	q = request.form['q']
-	l = Loklak()
+	l = Loklak()	
 	data = l.search(q)
 	statuses = data['statuses']
+	if(len(statuses) == 0):
+		return render_template('404.html')
 	emotions = []
 	languages = []
 	countries = []
@@ -68,6 +70,7 @@ def home():
 @app.route('/about')
 def about():
 	return render_template('loklak.html')
+
 if __name__ == '__main__':
     app.debug = True
     app.secret_key=os.urandom(24)
