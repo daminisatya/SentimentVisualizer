@@ -8,15 +8,15 @@ Steps to set it
 * Make sure you run this on python 2.7
 * Follow the steps
 
-````
-git clone https://github.com/daminisatya/SentimentVisualizer.git
-cd SentimentVisualizer
-virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python app.py
-
+```sh
+$ git clone https://github.com/daminisatya/SentimentVisualizer.git
+$ cd SentimentVisualizer
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+$ python app.py
 ```
+
 * Open any browser and run http://127.0.0.1:5000/
 
 Here are few screenshots of the tool 
